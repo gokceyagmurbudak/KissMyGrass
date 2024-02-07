@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="cp1252"?>
+<!DOCTYPE gxw SYSTEM "grass-gxw.dtd">
+<gxw>
+    <session>
+        <database>C:\Users\S H K\Documents\grassdata\nc_basic_ogh_2019</database>
+        <location>nc_basic_ogh_2019</location>
+        <mapset>modis_lst</mapset>
+    </session>
+    <layer_manager dim="33,-22,1300,740">
+    </layer_manager>
+    <layout>
+        <panes>layout2|name=toolbarWorkspace;caption=Workspace Toolbar;state=271056;dir=1;layer=2;row=1;pos=0;prop=100000;bestw=111;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=toolbarTools;caption=Tools Toolbar;state=271056;dir=1;layer=2;row=1;pos=113;prop=100000;bestw=257;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=toolbarMisc;caption=Misc Toolbar;state=271056;dir=1;layer=2;row=1;pos=372;prop=100000;bestw=79;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=toolbarNviz;caption=3D view Toolbar;state=271058;dir=1;layer=2;row=1;pos=3;prop=100000;bestw=120;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=map display content;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=430;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=statusbar;caption=;state=67383488;dir=3;layer=10;row=0;pos=0;prop=100000;bestw=129;besth=30;minw=30;minh=30;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=datacatalog;caption=Data;state=402917372;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=256;besth=134;minw=160;minh=84;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=layers;caption=Layers;state=402917372;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=256;besth=134;minw=160;minh=84;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=tools;caption=Tools;state=402917372;dir=6;layer=0;row=0;pos=0;prop=100000;bestw=256;besth=134;minw=160;minh=84;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=0;transparent=255|name=console;caption=Console;state=402917372;dir=6;layer=0;row=0;pos=1;prop=100000;bestw=256;besth=134;minw=160;minh=84;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=0;transparent=255|name=__notebook_0;caption=Console;state=402655228;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=256;besth=134;minw=160;minh=84;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=0;transparent=255|name=python;caption=Python;state=402917372;dir=6;layer=0;row=0;pos=2;prop=100000;bestw=256;besth=134;minw=160;minh=84;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=0;transparent=255|dock_size(1,2,1)=36|dock_size(5,0,0)=379|dock_size(3,10,0)=30|dock_size(4,1,0)=218|dock_size(6,0,0)=258|dock_size(2,1,0)=388|</panes>
+        <notebook>panel65b797fa0000000600000002=+0@layout2|name=dummy;caption=;state=67372030;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=334;besth=306;minw=334;minh=306;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|name=panel65b797fa0000000600000002;caption=;state=67372028;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=0;besth=0;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1;notebookid=-1;transparent=255|dock_size(5,0,0)=10|</notebook>
+    </layout>
+    <display name="Map Display 1" render="1" mode="0" showCompExtent="1" alignExtent="1" constrainRes="0" showStatusbar="1" showToolbars="1" dim="1,28,666,584" extent="-448265.535885,-415819.875885,1550934.464115,760180.124115,-0.500000,0.500000" tbres="1.000000" viewMode="2d" >
+        <layer type="raster" name="LST_Day_mean_3month_2015_07@modis_lst" checked="1" opacity="1.000000">
+            <selected />
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>LST_Day_mean_3month_2015_07@modis_lst</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="nc_state@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>nc_state@PERMANENT</value>
+                </parameter>
+                <parameter name="type">
+                    <value>boundary</value>
+                </parameter>
+                <parameter name="color">
+                    <value>#4D4D4D</value>
+                </parameter>
+                <parameter name="width">
+                    <value>2</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="LST_Day_mean_3month_2015_10@modis_lst" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>LST_Day_mean_3month_2015_10@modis_lst</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="nc_state@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>nc_state@PERMANENT</value>
+                </parameter>
+                <parameter name="type">
+                    <value>boundary</value>
+                </parameter>
+                <parameter name="color">
+                    <value>#4D4D4D</value>
+                </parameter>
+                <parameter name="width">
+                    <value>2</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="nc_state@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>nc_state@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>0:29:57</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>0:103:204</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="MOD11B3.A2015032.h11v05.single_LST_Day_6km@modis_lst" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>MOD11B3.A2015032.h11v05.single_LST_Day_6km@modis_lst</value>
+                </parameter>
+            </task>
+        </layer>
+        <overlay name="d.text">
+            <parameter name="text">
+                <value>Jul-Sep 2015</value>
+            </parameter>
+            <parameter name="color">
+                <value>black</value>
+            </parameter>
+            <parameter name="at">
+                <value>50.0,50.0</value>
+            </parameter>
+            <parameter name="font">
+                <value>sans</value>
+            </parameter>
+            <parameter name="size">
+                <value>10</value>
+            </parameter>
+        </overlay>
+        <overlay name="d.text">
+            <parameter name="text">
+                <value>Jul-Sep 2015</value>
+            </parameter>
+            <parameter name="color">
+                <value>black</value>
+            </parameter>
+            <parameter name="at">
+                <value>50.0,50.0</value>
+            </parameter>
+            <parameter name="font">
+                <value>sans</value>
+            </parameter>
+            <parameter name="size">
+                <value>10</value>
+            </parameter>
+        </overlay>
+        <overlay name="d.text">
+            <parameter name="text">
+                <value>Oct-Dec 2015</value>
+            </parameter>
+            <parameter name="color">
+                <value>black</value>
+            </parameter>
+            <parameter name="at">
+                <value>50.0,50.0</value>
+            </parameter>
+            <parameter name="font">
+                <value>sans</value>
+            </parameter>
+            <parameter name="size">
+                <value>10</value>
+            </parameter>
+        </overlay>
+        <overlay name="d.text">
+            <parameter name="text">
+                <value>Oct-Dec 2015</value>
+            </parameter>
+            <parameter name="color">
+                <value>black</value>
+            </parameter>
+            <parameter name="at">
+                <value>50.0,50.0</value>
+            </parameter>
+            <parameter name="font">
+                <value>sans</value>
+            </parameter>
+            <parameter name="size">
+                <value>10</value>
+            </parameter>
+        </overlay>
+        <overlay name="d.text">
+            <parameter name="text">
+                <value>Jul-Sep 2015</value>
+            </parameter>
+            <parameter name="color">
+                <value>black</value>
+            </parameter>
+            <parameter name="at">
+                <value>50.0,50.0</value>
+            </parameter>
+            <parameter name="font">
+                <value>sans</value>
+            </parameter>
+            <parameter name="size">
+                <value>10</value>
+            </parameter>
+        </overlay>
+        <overlay name="d.text">
+            <parameter name="text">
+                <value>Jul-Sep 2015</value>
+            </parameter>
+            <parameter name="color">
+                <value>black</value>
+            </parameter>
+            <parameter name="at">
+                <value>50.0,50.0</value>
+            </parameter>
+            <parameter name="font">
+                <value>sans</value>
+            </parameter>
+            <parameter name="size">
+                <value>10</value>
+            </parameter>
+        </overlay>
+    </display>
+</gxw>
